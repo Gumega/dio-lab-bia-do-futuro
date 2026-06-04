@@ -5,39 +5,39 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Este agente tem por objetivo criar relatórios de despesas categorizado, projetar possíveis gastos e alertar o usuário sobre gastos fora do orçamento.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Através de documentos que ele pode ler (gastos nos cartões (débito e crédito) fornecidos por arquivos), irá gerar os relatórios e alertar o usuário e trazer possíveis dicas do que pode ser feito caso os gastos estejam atingindo o limite do orçamento, ou há projeções de possíveis gastos que cheguem ou ultrapassem o limite.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Qualquer pessoa que queira um auxílio com o orçamento mensal (ou outros períodos, se for o caso), que queria economizar, ou entender melhor seus gastos.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Goga (Gestão de Orçamento e GAstos).
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+A personalidade do Goga é mais educativa, às vezes um pouco questionadora para entender o usuário, mas também sem julgamentos.
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Goga tem uma comunicação mais acessível, sem termos técnicos, mas mantendo a formalidade.
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: Olá! Como posso lhe auxiliar com suas finaças?
+- Confirmação: Certo. Vamos entender melhor isso...
+- Erro/Limitação: Infelizmente não poderei lhe auxiliar com isso.
 
 ---
 
@@ -59,10 +59,9 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | [Streamlit](https://streamlit.io) |
+| LLM | Ollama (local) |
+| Base de Conhecimento | JSON e CSV com dados fictícios (mockado) de um possível cliente, que se encontram na pasta `data` |
 
 ---
 
@@ -70,12 +69,12 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Utiliza os dados fornecidos no contexto;
+- [ ] Baseia-se em informações anteriores de gastos do usuário. Caso não possua essa base, informe que não poderá auxilixar;
+- [ ] Quando não sabe de algo, admite.
 
 ### Limitações Declaradas
-> O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- [ ] Se não tiver dados suficientes, não irá prever ou dar dicas para o usuário;
+- [ ] Não acessa dados bancários reais sensíveis;
+- [ ] Não substitui um profissional certificado.
