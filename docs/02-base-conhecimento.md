@@ -896,6 +896,7 @@ ano,objetivo,descricao,valor
 
 > Mostre um exemplo de como os dados são formatados para o agente.
 
+O exemplo a seguir é um exemplo de contexto montado conforme os dados originais da base de conhecimento, mas, sintetizando apenas as informações mais relevantes.
 ```
 Objetivos do Cliente:
 - Apartamento: R$ 450.000,00
