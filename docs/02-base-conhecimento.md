@@ -881,11 +881,15 @@ data,descricao,categoria,valor,tipo
 2026-05-20,Academia,saude,109.00,saida
 2026-05-22,Supermercado,alimentacao,245.00,saida
 2026-05-27,Combustível,transporte,110.00,saida
-
-OBJETIVOS DO CLIENTE:
-
 ```
+```text
+OBJETIVOS DO CLIENTE (objetivos.csv)
+ano,objetivo,descricao,valor
 
+2034,Apartamento,adquirir ou dar entrada em um apartamento,450000
+2030,Carro,comprar ou financiar um carro utilizando o atual como entrada,65000
+2028,Investimento,investimento em acoes,50000
+```
 ---
 
 ## Exemplo de Contexto Montado
