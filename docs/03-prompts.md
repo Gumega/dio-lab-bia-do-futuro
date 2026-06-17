@@ -73,22 +73,24 @@ A média dos três meses, por categoria, ficou:
   Lazer: R$ 29,90 e 0,88%.
 
 Com seus gastos maiores em supermercado e aluguel.
+
+No geral, você ficou com saldo positivo. Sugiro deixar esse dinheiro reservado, mas se for aplicar, que seja em algo que possa ser usado mais de imediato para caso surgir alguma emergência.
 ```
 
 ---
 
 ### Cenário 2: Avaliação de gastos.
 
-**Contexto:** Após visualizar as categorias e médias de gastos, o cliente perguntou um detalhamento dos itens. 
+**Contexto:** Após visualizar as categorias e médias de gastos, o cliente perguntou um detalhamento da categoria de alimentação. 
 
 **Usuário:**
 ```
-Certo, e destes gastos, quais foram os itens WIP
+Certo, e destes gastos, em uma média geral, quanto eu gastei com supermercado?
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+Segundo as informações que eu tenho aqui, supermercado ficou com a média de R$ 1510,83, que representa 91,88% dos gastos em alimentação e 44,78% do gasto mensal.
 ```
 
 ---
