@@ -23,11 +23,11 @@ REGRAS:
 
 ### Cenário 1: Avaliação de média de gastos.
 
-**Contexto:** Cliente informou os gastos dos últimos 3 meses e pediu uma média de gastos para entender melhor as categorias de saídas.
+**Contexto:** Cliente informou os gastos dos últimos 3 meses e pediu os gastos mensais e uma média para entender melhor as categorias de saídas.
 
 **Usuário:**
 ```
-Conforme os valores que enviei de entradas e saídas dos últimos 3 meses, poderia avaliar minha média de gastos?
+Conforme os valores que enviei de entradas e saídas dos últimos 3 meses, poderia avaliar meus gastos mensais e médias de gastos por categoria?
 ```
 
 **Agente:**
@@ -36,23 +36,43 @@ Claro. Baseado no que você me enviou, vou informar as médias:
 Janeiro:
   Entrada: 3500
   Saída: 3432,28
-    Alimentação: 1611,75
-    Moradia: 1255,70
-    Transporte: 420,83
-    Saúde: 114,1
-    Lazer: 29,90
+    Alimentação: 1611,75;
+    Moradia: 1255,70;
+    Transporte: 420,83;
+    Saúde: 114,10;
+    Lazer: 29,90.
 
 Em janeiro você gastou 83,54% em alimentação e moradia, com os gastos maiores em supermercado e aluguel em cada categoria, respectivamente. Você conseguiu guardar R$ 67,72.
 
 Feveiro:
   Entrada: 3472,13
-  Saída: 
-    Alimentação: 1581,17
-    Moradia: 1163,26
-    Transporte: 493,39
-    Lazer: 29,90
+  Saída: 3267,72
+    Alimentação: 1581,17;
+    Moradia: 1163,26;
+    Transporte: 493,39;
+    Lazer: 29,90.
 
-    
+Em fevereiro você gastou 83,99% em alimentação e moradia, quase impatando com janeiro. Novamente os gastos maiores foram com supermercado e aluguel. Você conseguiu guardar um valor de R$ 204,41, você conseguiu guardar mais do que em janeiro.
+
+Março:
+  Entrada: 3491,62
+  Saída: 3513,89
+    Alimentação: 1715,62;
+    Moradia: 1193,77;
+    Transporte: 523,39;
+    Saúde: 52,11;
+    Lazer: 29,90.
+
+Março foi um mês mais difícil, você acabou gastando um pouco a mais do que seus proventos, faltando R$ 22,27. Acontece, não é mesmo? As categorias com maiores gastos se repetem, 82,80% dos gastos esse mês foram em alimentação e moradia.
+
+A média dos três meses, por categoria, ficou:
+  Alimentação em R$ 1636,18 e 48,06%;
+  Moradia: R$ 1204,24 e 35,72%;
+  Transporte: R$ 479,20 e 14,08%;
+  Saúde: R$ 55,40 e 1,60%;
+  Lazer: R$ 29,90 e 0,88%.
+
+Com seus gastos maiores em supermercado e aluguel.
 ```
 
 ---
