@@ -21,7 +21,7 @@ REGRAS:
 
 ## Exemplos de Interação
 
-### Cenário 1: Avaliação de média de gastos.
+### Cenário 1: Calculo de gastos.
 
 **Contexto:** Cliente informou os gastos dos últimos 3 meses e pediu os gastos mensais e uma média para entender melhor as categorias de saídas.
 
@@ -77,13 +77,13 @@ Com seus gastos maiores em supermercado e aluguel.
 
 ---
 
-### Cenário 2: [Nome do cenário]
+### Cenário 2: Avaliação de gastos.
 
-**Contexto:** [Situação do cliente]
+**Contexto:** Após visualizar as categorias e médias de gastos, o cliente perguntou um detalhamento dos itens. 
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+Certo, e destes gastos, quais foram os itens WIP
 ```
 
 **Agente:**
