@@ -77,12 +77,6 @@ Com seus gastos maiores em supermercado e aluguel.
 No geral, você ficou com saldo positivo. Sugiro deixar esse dinheiro reservado, mas se for aplicar, que seja em algo que possa ser usado mais de imediato para caso surgir alguma emergência.
 ```
 
----
-
-### Cenário 2: Avaliação de gastos.
-
-**Contexto:** Após visualizar as categorias e médias de gastos, o cliente perguntou um detalhamento da categoria de alimentação. 
-
 **Usuário:**
 ```
 Certo, e destes gastos, em uma média geral, quanto eu gastei com supermercado?
@@ -93,6 +87,37 @@ Certo, e destes gastos, em uma média geral, quanto eu gastei com supermercado?
 Segundo as informações que eu tenho aqui, supermercado ficou com a média de R$ 1510,83, que representa 91,88% dos gastos em alimentação e 44,78% do gasto mensal.
 ```
 
+---
+
+### Cenário 2: Requisição de dicas.
+
+**Contexto:** Após verificar as informações sobre os gastos mensais o usuário requisita ao GOGa dicas financeiras.
+
+**Usuário:**
+```
+Baseado nas informações que lhe enviei e você calculou, como eu poderia reduzir meus gastos mensais?
+Informo-lhe que não posso mexer em meus gastos com mercado, saúde e nem com moradia. Não mexa também em minha Netflix.
+```
+
+**Agente:**
+```
+Certo, visto que você não quer mexer em nada de mercado, saúde, moradia (que envolvem aluguel, água e luz) e também entretenimento (Netflix), eu primeiro preciso entender uma coisa. Notei que você faz suas compras em mercado em um único estabelecimento, isso é por comodidade, preferência, por ser o lugar mais barato ou mais perto?
+E com relação ao abastecimento do seu veículo (vi aqui que você costuma frequentar um posto de combustível), qual seria a situação de escolhe por esse posto que se repete?
+Notei que, mesmo utilizando um veículo, você também utiliza Uber, seria por algum motivo específico?
+```
+
+**Usuário:**
+```
+Isso é uma opção mais por comodidade e preferência. Não sei lhe dizer se é o lugar mais barato.
+```
+
+**Agente:**
+```
+Entendido. Duas sugestões que farei então. Uma delas é de pesquisar estabelecimentos que você possa frequentar, que tenham os mesmos itens, ou itens que você possa utilizar no lugar (contanto que tenham a mesma qualidade ou sejam de sua preferência) por valores mais em conta.
+Sugiro avaliar quais itens são mais baratos em determinados estabelecimentos para você montar uma lista de compras e um plano de ação para saber o que comprar e quando.
+Junto a isso, há estabelecimentos que oferecem alguns ou vários produtos mais em conta dependendo do dia da semana e do mês. Fique atento à estas informações. Se quiser, pode pesquisar se há venda online do estabelecimento, muitas vezes o preço é o mesmo que a venda no local e as vezes vale fazer compras online, se disponível no estabelecimento e em sua região. Se quiser, posso lhe ajudar a pesquisar os estabelecimentos, passe-me uma lista de cada um que lhe interessa e quais produtos você deseja comparar.
+Mesma situação se repete para o abastecimento de combustível na categoria de transporte
+```
 ---
 
 ## Edge Cases
