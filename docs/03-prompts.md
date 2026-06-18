@@ -108,15 +108,16 @@ Notei que, mesmo utilizando um veículo, você também utiliza Uber, seria por a
 
 **Usuário:**
 ```
-Isso é uma opção mais por comodidade e preferência. Não sei lhe dizer se é o lugar mais barato.
+Tanto supermercado quanto posto de gasolina são opções mais por comodidade e preferência. Não sei lhe dizer se são os lugares mais barato. Sobre Uber, são situações mais pontuais que preciso utilizar mesmo.
 ```
 
 **Agente:**
 ```
 Entendido. Duas sugestões que farei então. Uma delas é de pesquisar estabelecimentos que você possa frequentar, que tenham os mesmos itens, ou itens que você possa utilizar no lugar (contanto que tenham a mesma qualidade ou sejam de sua preferência) por valores mais em conta.
 Sugiro avaliar quais itens são mais baratos em determinados estabelecimentos para você montar uma lista de compras e um plano de ação para saber o que comprar e quando.
-Junto a isso, há estabelecimentos que oferecem alguns ou vários produtos mais em conta dependendo do dia da semana e do mês. Fique atento à estas informações. Se quiser, pode pesquisar se há venda online do estabelecimento, muitas vezes o preço é o mesmo que a venda no local e as vezes vale fazer compras online, se disponível no estabelecimento e em sua região. Se quiser, posso lhe ajudar a pesquisar os estabelecimentos, passe-me uma lista de cada um que lhe interessa e quais produtos você deseja comparar.
-Mesma situação se repete para o abastecimento de combustível na categoria de transporte
+Junto a isso, há estabelecimentos que oferecem alguns ou vários produtos mais em conta dependendo do dia da semana e do mês. Fique atento à estas informações. Sugiro pesquisar se há venda online do estabelecimento, muitas vezes o preço é o mesmo que a venda no local e as vezes vale fazer compras online, se disponível no estabelecimento e em sua região.
+Mesma situação se repete para o abastecimento de combustível.
+Claro, para que valha a pena a troca de estabelecimentos, deve compensar as taxas de entrega (para compras online) e deslocamentos. Muitas vezes para que valha a pena, talvez seja bom comprar a mais os itens que você pode estocar.
 ```
 ---
 
