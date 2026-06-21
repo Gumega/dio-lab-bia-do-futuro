@@ -297,4 +297,4 @@ Claro, para que valha a pena a troca de estabelecimentos, deve compensar as taxa
 - Novamente no Gemini, notei que ao perguntar algo como "Quantos anos tem o ator Keanu Reeves?", que foge do escopo do projeto, ele respondeu a pergunta. Informei no System Prompt para responder apenas perguntas pertinentes ao objetivo do Agente;
 - No Gemini, de novo, ao tentar pedir um cálculo mês a mês a partir do arquivo de transacoes, a partir de um determinado mês, ele simplesmente gera uma previsão, ao invés de realmente pegar os valores do arquivo;
 - Como houve casos em que o GOGa simplesmente jogou na cara do usuário qual regra ele estava seguindo (expliciamente), informei no System Prompt de que isso não deve ocorrer;
-- Ajustei todo o System Prompt depois de algumas interações com o Gemini, pois ainda haviam casos problemáticos.
+- Ajustado todo o System Prompt depois de algumas interações com o Gemini, pois ainda haviam casos problemáticos na tentativa de processar arquivos muito extensos, sem dar explicação ao usuário (e simplesmente jogando uma probabilidade no meio do cálculo que deveria ser preciso).
